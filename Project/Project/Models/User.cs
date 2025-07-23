@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Data;
 
 namespace Project.Models
@@ -26,4 +26,3 @@ namespace Project.Models
         public virtual ICollection<Notification> Notifications { get; set; } = new List<Notification>();
     }
 }
-

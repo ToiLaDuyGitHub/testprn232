@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Project.Models
 {
@@ -20,7 +20,5 @@ namespace Project.Models
         public virtual ICollection<RouteSegment> RouteSegments { get; set; } = new List<RouteSegment>();
         public virtual ICollection<Trip> Trips { get; set; } = new List<Trip>();
         public virtual ICollection<Fare> Fares { get; set; } = new List<Fare>();
-        public decimal FixedFare { get; internal set; }
     }
 }
-

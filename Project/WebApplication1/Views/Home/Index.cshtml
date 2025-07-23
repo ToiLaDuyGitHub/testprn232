@@ -397,12 +397,12 @@
                                     var today = DateTime.Today;
                                     for (int i = 0; i < 7; i++) // 7 ngày gần nhất kể từ hôm nay
                                     {
-                                        var date = today.AddDays(i-5);
+                                        var date = today.AddDays(i);
                                     }
                                 }
-                                @for (int i = 0; i <7; i++)
+                                @for (int i = 0; i < 7; i++)
                                 {
-                                    var date = today.AddDays(i-5);
+                                    var date = today.AddDays(i);
                                     <option value="@date.ToString("yyyy-MM-dd")">
                                         @date.ToString("dddd, dd/MM/yyyy") <!-- Thứ, ngày/tháng/năm -->
                                     </option>
@@ -1033,7 +1033,7 @@
         </section><!-- /.blog-style-one -->
         <section class="cta-style-one text-center">
             <form action="Search/Search" method="post" class="subscribe-form">
-                <input type="text" name="bookingCode" placeholder="Enter your email">
+                <input type="text" name="bookingCode" placeholder="Enter your Bookingcode">
                 <button type="submit">Tìm Kiếm</button>
             </form>
 
