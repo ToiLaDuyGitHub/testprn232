@@ -1,4 +1,4 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Project.Models
 {
@@ -21,4 +21,3 @@ namespace Project.Models
     }
 
 }
-

@@ -1,4 +1,4 @@
-namespace Project.Models
+﻿namespace Project.Models
 {
     public class Fare
     {
@@ -19,4 +19,3 @@ namespace Project.Models
         public virtual RouteSegment Segment { get; set; } = null!;
     }
 }
-
